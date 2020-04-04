@@ -1,0 +1,45 @@
+{
+  "name": "chess-repertoire-manager",
+  "version": "0.1.0",
+  "private": false,
+  "author": "Simon Eriksson <smnrkssn@hotmail.se>",
+  "license": "MIT",
+  "description": "An application for managing your chess repertoire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv16sen/react-chess-board"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.3",
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "@types/styled-components": "^5.0.1",
+    "cross-env": "^7.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "chess.js": "^0.10.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-fen-chess-board": "^0.1.4",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "test:coverage": "cross-env CI=true react-scripts test --env=jsdom --coverage"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
